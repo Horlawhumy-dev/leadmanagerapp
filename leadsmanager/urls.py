@@ -2,6 +2,5 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('', include('frontend.urls')),
-    path('', include('lead.urls')),
+    path('', include('leadsapi.urls')),
 ]

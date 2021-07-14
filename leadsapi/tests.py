@@ -16,6 +16,6 @@ headers = {
     "Content-Type": "application/json"
 }
 
-response = requests.put(url, data)
+# response = requests.put(url, data)
 print(response.json())
 # assert response.status_code == 200

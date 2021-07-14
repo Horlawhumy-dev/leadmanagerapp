@@ -1,6 +1,6 @@
 from rest_framework import viewsets, permissions
 
-from lead.models import Lead
+from leadsapi.models import Lead
 from .serializers import LeadSerializer
 
 class LeadViewset(viewsets.ModelViewSet):
